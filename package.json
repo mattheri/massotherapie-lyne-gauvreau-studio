@@ -31,5 +31,8 @@
     "sanity-plugin-leaflet-input": "^1.0.1",
     "sanity-plugin-mapbox-input": "^0.0.3",
     "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.34.2"
   }
 }
