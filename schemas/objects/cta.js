@@ -45,8 +45,8 @@ export default {
       const subtitleExtra = slug
         ? `Slug:/${slug}/`
         : link
-        ? `External link: ${link}`
-        : 'Not set';
+          ? `External link: ${link}`
+          : 'Not set';
       return {
         title: `${title}`,
         subtitle: `${routeTitle} ${subtitleExtra}`,

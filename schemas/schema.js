@@ -21,6 +21,8 @@ import link from './objects/link'
 import portableText from './objects/portableText'
 import simplePortableText from './objects/simplePortableText'
 import appointments from './objects/appointments'
+import map from './objects/map'
+import ctaWithText from './objects/ctaWithText'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -48,5 +50,7 @@ export default createSchema({
     portableText,
     simplePortableText,
     appointments,
+    map,
+    ctaWithText,
   ]),
 })

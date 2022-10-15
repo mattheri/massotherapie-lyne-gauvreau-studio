@@ -26,6 +26,9 @@ export default {
 				{ type: 'imageSection' },
 				{ type: 'textSection' },
 				{ type: 'appointments' },
+				{ type: 'map' },
+				{ type: 'embedHTML' },
+				{ type: 'ctaWithText' },
 			],
 		},
 		{
