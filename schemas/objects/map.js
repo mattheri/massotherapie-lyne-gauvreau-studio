@@ -4,6 +4,11 @@ export default {
 	type: 'document',
 	fields: [
 		{
+			name: 'revealInViewport',
+			type: 'boolean',
+			title: 'Show only when in viewport',
+		},
+		{
 			name: 'location',
 			type: 'geopoint',
 			options: {

@@ -4,6 +4,11 @@ export default {
   title: 'Image with text',
   fields: [
     {
+      name: 'revealInViewport',
+      type: 'boolean',
+      title: 'Show only when in viewport',
+    },
+    {
       name: 'heading',
       type: 'string',
       title: 'Heading',

@@ -4,6 +4,11 @@ export default {
   title: 'Text',
   fields: [
     {
+      name: 'revealInViewport',
+      type: 'boolean',
+      title: 'Show only when in viewport',
+    },
+    {
       name: 'label',
       type: 'string',
       title: 'Label',
