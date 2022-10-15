@@ -15,6 +15,11 @@ export default {
 	],
 	fields: [
 		{
+			name: 'revealInViewport',
+			type: 'boolean',
+			title: 'Show only when in viewport',
+		},
+		{
 			title: 'Title',
 			name: 'title',
 			type: 'string',
